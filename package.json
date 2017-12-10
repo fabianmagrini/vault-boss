@@ -1,0 +1,19 @@
+{
+  "name": "vault-boss",
+  "version": "1.0.0",
+  "description": "setup scripts for vault",
+  "main": "",
+  "scripts": {
+    "approle": "node actions/approle.js",
+    "health": "node actions/health.js",
+    "renew": "node actions/token_renew_self.js",
+    "self": "node actions/token_lookup_self.js",
+    "unwrap": "node actions/unwrap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabian Magrini",
+  "license": "ISC",
+  "dependencies": {
+    "node-vault": "^0.7.1"
+  }
+}
